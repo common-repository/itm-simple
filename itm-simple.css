@@ -1,0 +1,133 @@
+p { padding: 5px 0; }
+
+.itm_simple_all_content {
+}
+
+.itm_simple_show {
+background-color:#c5c5c5;
+border-radius: 3px;
+cursor: pointer;
+float: left;
+}
+
+.itm_simple_hide {
+cursor: pointer;
+display: none;
+float: left;
+}
+
+.itm_simple_hidden  {
+background-color:#fafafa; 
+max-width: 500px;
+margin: 10px;
+padding: 15px;
+border-style: dashed;
+border-width: 1px;
+border-radius: 20px;
+cursor: pointer;
+display: none;
+}
+
+.contingut_complert {
+margin: 0;
+padding: 0;
+width: 600px;
+}
+ 
+.contingut_obre {
+color: #FFF;
+margin: 0;
+padding: 3px 10px;
+width: 20%;
+cursor: pointer;
+position: relative;
+background-color:#c5c5c5 
+}
+.contingut_ocult {
+padding: 5px 10px;
+border-style:dotted;
+border-width:1px;
+background-color:#fafafa; 
+}
+
+.contingut_tanca {
+margin: 1px;
+color: #fff;
+padding: 3px 10px;
+width: 20%;
+cursor: pointer;
+position: relative;
+background-color:#464646;
+}
+
+
+.itm_simple_element {
+color: #FFF;
+margin: 0;
+padding: 5px;
+width: 600px;
+float:left;
+border-style:solid;
+border-width:1px;
+border-radius: 3px;
+ 
+}
+
+img.itm_left {
+    float: left; 
+	vertical-align: text-top;
+	padding-right: 20px; 
+	padding-bottom: 5px;
+}
+
+.itm_simple_slidetoggle  {
+background-color:#fafafa; 
+max-width: 200px;
+padding: 15px;
+border-style: solid;
+border-width: 1px;
+border-radius: 20px;
+cursor: pointer;
+}
+
+.itm_simple_next {
+background-color:#fafafa; 
+max-width: 200px;
+padding: 10px;
+border-style: solid;
+border-width: 1px;
+border-radius: 20px;
+cursor: pointer;
+}
+
+.itm_simple_container {
+border-bottom-style: solid;    
+border-color: gray;
+border-width: 1px;
+}
+.itm_simple_sldtggl  {
+background-color: white; 
+padding: 15px;
+border-width: 1px;
+border-style: none;
+border-color: gray;
+border-radius: 0px;
+font-weight: bold;
+color: #0040ff;
+cursor: pointer;
+}
+.itm_simple_hddn  {
+background-color:white; 
+padding: 10px 25px 40px 25px;
+border-style: none none;
+border-width: 1px;
+border-color: gray;
+border-radius: 0px;
+display: none;
+}
+.itm_simple_sldtggl::before{
+    content: " + ";
+}
+.itm_simple_opened::before{
+    content: " - ";
+}
